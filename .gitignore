@@ -1,0 +1,24 @@
+*.crt
+*.pem
+*.private.key
+*.public.key
+*.env
+
+/animal-detect-frontend/animal-detect-webapp/node_modules
+/animal-detect-frontend/animal-detect-webapp/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/animal-detect-frontend/animal-detect-webapp/.next/
+/animal-detect-frontend/animal-detect-webapp/out/
+
+# production
+/animal-detect-frontend/animal-detect-webapp/build

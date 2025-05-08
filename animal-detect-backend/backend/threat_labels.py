@@ -1,0 +1,1 @@
+THREAT_LABELS = {'Tiger', 'Leopard'}
